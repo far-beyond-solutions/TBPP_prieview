@@ -7,25 +7,20 @@
 .prieview{
     display: flex;
     justify-content: space-evenly;
+    
 }
-
+.prieview img{
+    height: 50%;
+}
 #prieview1:hover{
     filter: opacity(0.9);
 }
 
-.prieview1{
-    visibility: hidden;
+#prieview3:hover{
+    filter: opacity(0.9);
 }
 
-.prieview1:hover{
-    visibility: visible;
-    z-index: 10;
-}
 
-.prieview1 {
-    display: none;
-}
-    
-#prieviww1:hover + .prieview1 {
-    display: block;
+#prieview2:hover{
+    filter: opacity(0.9);
 }
